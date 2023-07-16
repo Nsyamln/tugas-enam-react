@@ -1,5 +1,5 @@
 import About from "./About";
-import Portofolio from "./portofolio";
+import Portofolio from "./Portofolio";
 
 export default function Home() {
   const name = "I'm Maulina Inas Nasya";

@@ -4,8 +4,6 @@ import App from "./App.jsx";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./pages/Home.jsx";
-import About from "./pages/About.jsx";
-import Portofolio from "./pages/Portofolio.jsx";
 
 export const pages = [
   {
@@ -14,13 +12,11 @@ export const pages = [
     title: "Home",
   },
   {
-    path: "/portofolio",
-    element: <Portofolio />,
-    title: "Projects",
+    path: "/project",
+    title: "Project",
   },
   {
     path: "/about",
-    element: <About />,
     title: "About",
   },
 ];

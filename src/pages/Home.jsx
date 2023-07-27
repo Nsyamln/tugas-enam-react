@@ -104,7 +104,7 @@ export default function Home() {
                 <DiJavascript1 size={52} />
                 Javascript
               </div>
-              <div className="bg-gray-300 rounded-xl px-6 py-3 flex justify-between gap-4 items-center">
+              <div className="bg-gray-300 rounded-xl px-4 py-3 flex justify-between gap-4 items-center">
                 <BsGithub size={48} />
                 GIT & GitHub
               </div>
